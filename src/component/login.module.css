@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.authorize {
+    color: white;
+    text-shadow: white 5px 4px 3px;
+}
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.firstInp {
+    width: 300px;
+    height: 30px;
+    border: 2px solid red;
+    outline: none;
+}
+.secondInp {
+    width: 200px;
+    height: 30px;
+    outline: none;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    outline: none;
+}

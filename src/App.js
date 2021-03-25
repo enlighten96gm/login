@@ -1,10 +1,11 @@
 import './App.css';
-import Login from './component/login';
+import Login from './component/LOGIN/login';
+import store from './redux/store';
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Login store={store}/>
     </div>
   );
 }

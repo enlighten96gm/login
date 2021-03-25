@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import s from './login.module.css'
 
 
-const Login = () =>  {
+const Login = (props) =>  {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+
+
 
     return (
         <div className={s.login}>
